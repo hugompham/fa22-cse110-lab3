@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-https://hugompham.github.io/Lab2_Starter/
+# Lab 3
+https://hugompham.github.io/fa22-cse110-lab3/
