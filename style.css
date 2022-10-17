@@ -100,3 +100,16 @@ a[href="mailto:hmpham@ucsd.edu"]{
     display: inline;
     background-color: yellow ;   
 }
+
+/* Pseudoclass*/
+button:hover{
+    color: blue;
+}
+button:active{
+    color: red;
+}
+
+/* Pseudoclass Selector (test using email link)*/
+a:hover{
+    color: black;
+}
