@@ -142,3 +142,8 @@ a:hover{
     border-color: blue;
     border-radius: 10px;
   }
+  /* Universal Selector for all that does not have namespace*/
+  |*{
+    font-family: ROBOT;
+    font-style: normal;
+  }
