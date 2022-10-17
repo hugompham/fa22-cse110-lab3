@@ -90,3 +90,13 @@ h2, h3 {
         font-size: 70%;
     }
 }
+
+/* Attribute Selectors with display*/
+a[href="https://sites.google.com/eng.ucsd.edu/cse-110-winter-2022/home"]{
+    display: inline-block;
+    background-color: 	#FFEA00;
+}
+a[href="mailto:hmpham@ucsd.edu"]{
+    display: inline;
+    background-color: yellow ;   
+}
