@@ -36,3 +36,46 @@ h2, h3 {
     position: static;
     font-family: POP;
 }
+
+/* Flex for attendance*/
+.Attendance{
+    display: flex;
+    flex-direction: column;
+    flex-flow : column wrap;
+    order: 1;
+    flex-basis: auto;
+    align-self: auto;
+    font-family: ROBOT;
+}
+
+/* Grid for media*/
+.sidebar1 {
+    grid-area: sidebar1;
+}
+.sidebar2 {
+    grid-area: sidebar2;
+}
+.audio {
+    grid-area: audio;
+    position: relative;
+}
+.video {
+    grid-area: video;
+    position: relative;
+}
+  
+.miniHeader {
+  grid-area: header;
+}
+
+.Media{
+    display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 100px 250x 250px;
+      grid-template-areas:
+      "header  header  header"
+      "sidebar1 audio audio"
+      "sidebar2 video video";
+      background-color: #fff;
+      color: #444;
+}
