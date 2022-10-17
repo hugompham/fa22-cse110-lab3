@@ -141,9 +141,11 @@ a:hover{
     border-style: solid;
     border-color: blue;
     border-radius: 10px;
-  }
-  /* Universal Selector for all that does not have namespace*/
-  |*{
+}
+/* Universal Selector for all that does not have namespace*/
+|*{
     font-family: ROBOT;
     font-style: normal;
-  }
+}
+
+
