@@ -27,6 +27,7 @@ h1 {
     min-width: 100;
     position: relative;
     font-family: ROBOT;
+    font-size: 1.5 rem;
 }
 
 /* Heading 2 and 3*/
@@ -35,6 +36,7 @@ h2, h3 {
     color: (0, 0, 255);
     position: static;
     font-family: POP;
+    font-size: 1 em;
 }
 
 /* Flex for attendance*/
@@ -71,11 +73,20 @@ h2, h3 {
 .Media{
     display: grid;
       grid-gap: 10px;
-      grid-template-columns: 100px 250x 250px;
+      grid-template-columns: 1.3in 2in 2in;
       grid-template-areas:
       "header  header  header"
       "sidebar1 audio audio"
       "sidebar2 video video";
       background-color: #fff;
       color: #444;
+}
+
+/* Responsiveness and Units*/
+@media print{
+    nav {
+        width: 100 pt;
+        height: 12.5 pc;
+        font-size: 70%;
+    }
 }
