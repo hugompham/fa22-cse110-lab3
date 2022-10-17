@@ -1,0 +1,17 @@
+/* Important id that is highlighted, bonded, and underline to emphasis its importance*/
+#important {
+    background-color: yellow;
+    text-decoration: underline;
+    text-decoration: solid;
+    color: black;
+    text-align: left;
+}
+/* Heading 1 (size, color, text-align)*/
+h1 {
+    text-align: center; 
+    color: hsl(205, 100%, 50%);
+    height: 100;
+    width: 200;
+    max-width: 300;
+    min-width: 100;
+}
