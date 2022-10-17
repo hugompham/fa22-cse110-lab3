@@ -11,6 +11,31 @@
     <link rel="Web Icon" href="https://cse110-f2021.github.io/Lab2_ScavengerHunt/favicon.ico" type="image/x-icon">
   </head>
   <style>
+    /* Combinators*/
+    div p {
+        background-color: #fff;
+    }
+
+    li > ul {
+        font-family: POP;
+        font-size: 80%;
+    }
+
+    li ~ li{
+        font-family: ROBOT;
+        font-size: 100%;
+    }
+
+    br + strong {
+        font-family: ROBOT;
+        font-style: italic;
+        color: red;
+    }
+
+    p.Intro{
+        font-family: POP;
+        font-size: 90%;
+    }
   </style>
   <body>
     <main>
@@ -44,7 +69,7 @@
             <strong>
                 Opening
             </strong>
-            <p>
+            <p class = "Intro">
                 The first meeting of Group 38 was called to order at 8:00 PM on October 5, 2022 on Zoom by <span style="color: red">Korey Ray</span>
             </p>
         </div>
